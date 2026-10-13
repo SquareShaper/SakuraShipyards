@@ -1,0 +1,23 @@
+{
+	"id":"sas_nova_field",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"sakura_shipyards.data.shipsystems.NovaFieldAI",
+	
+	"runScriptWhileIdle":true,
+	"canUseWhileRightClickSystemOn":true,
+	
+	"statsScript":"sakura_shipyards.data.shipsystems.NovaFieldSystem",
+
+	"useSound":"system_nova_burst_fire",
+	"loopSound":"beam_heavy_loop",
+	"deactivateSound":"system_damper_omega_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+		"threatRange":300,
+		"threatAmount":10,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
